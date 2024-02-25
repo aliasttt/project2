@@ -1,3 +1,43 @@
 body {
     background-color: gray;
 }
+
+
+.h1 {color: #FFBF00;
+    text-align: center;
+
+}
+.container {
+    background-color: #FFBF00;
+    
+    border: 1px solid;
+    
+    display: flex;
+    flex-flow: row wrap ;
+    
+    
+
+}
+
+.item{
+    height: 200px;
+    width: 200px ;
+    background-color: gray;
+    margin: 10px;
+    
+
+
+}
+.footer{
+    font-size: large;
+    background-color: coral;
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding-left: 5px;
+
+    line-height: 30px;
+    
+}
