@@ -33,10 +33,10 @@ body {
     font-size: large;
     background-color: coral;
     text-align: center;
-    bottom: 0;
-    left: 0%;
+    margin: 27px 0px 0px 0px;
+    
     width: 100%;
-    padding-left: 5px;
+    
     line-height: 30px;
     
 }
@@ -80,4 +80,10 @@ body {
 
 .item2:hover{
     background-color: crimson;
+}
+
+
+.final{
+    display: flex;
+    align-items: end;
 }
