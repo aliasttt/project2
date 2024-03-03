@@ -1,14 +1,21 @@
 function hello(){
     alert("this is miguels website")}
 
-
- 
-
-function ali() {
-    const x = document.querySelector("#submit").value ;
-    alert(`welcome to this website ${x}`)
+//document.querySelector("#name")
+/*function ali() {
+    
+    alert(`welcome to this website ${x}!`)
     
 
 }
+const x = document.querySelector("form").value ;
 
-document.querySelector("form").onsubmit = ali()
+x.onsubmit = ali();*/
+document.addEventListener("DOMContentLoaded",function(){
+
+   document.querySelector("form").onsubmit =  function() {
+
+    const gholi = document.querySelector("#name").value;
+    alert(`Welcome to this website ${gholi}!`);}
+ 
+   });
